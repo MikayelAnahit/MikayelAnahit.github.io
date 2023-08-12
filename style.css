@@ -11,7 +11,10 @@ body{
 	/* overflow: hidden; */
 	margin: 0;
 	padding: 0;
-	background: url('bg.png')no-repeat center top / cover;
+	background: url('bg.png');
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
@@ -25,9 +28,9 @@ body{
 	height: auto;
 	margin: 0 10px;
 	position: relative;
-	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	        backdrop-filter: blur(3px);
 	display: flex;
-	/* flex-wrap: wrap; */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -129,13 +132,13 @@ body{
 ._1{
 	width: 172px;
 	height: 167px;
-	background: url('1.png')no-repeat center top/cover;
+	background: url('_1.png')no-repeat center top/cover;
 
 }
 ._2{
 	width: 172px;
 	height: 167px;
-	background: url('./_2.png')no-repeat center top/cover;
+	background: url('_2.png')no-repeat center top/cover;
 }
 
 .howToGetLink{
