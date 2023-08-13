@@ -6,11 +6,12 @@
 	box-sizing: border-box;
 	font-family: 'Italianno', 'Arm';
 	color: #36322D;
+	font-weight: 500;
 }
 
 @font-face {
 	font-family: "Arm";
-	src: url("./poqrik.ttf");
+	src: url("./ArmAllegroU.ttf");
 }
 #bg {
 	position: fixed; 
