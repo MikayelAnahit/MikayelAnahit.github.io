@@ -12,6 +12,7 @@
 	font-family: "Arm";
 	src: url("./ArmAllegroU.ttf");
 }
+
 #bg {
 	position: fixed; 
 	top: 0; 
@@ -20,7 +21,7 @@
 	/* Preserve aspect ratio */
 	min-width: 100%;
 	min-height: 100%;
-  }
+}
 
 /* --------------------------------------- */
 #out{
