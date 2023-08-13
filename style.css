@@ -12,7 +12,6 @@
 	font-family: "Arm";
 	src: url("./ArmAllegroU.ttf");
 }
-
 #bg {
 	position: fixed; 
 	top: 0; 
@@ -21,7 +20,7 @@
 	/* Preserve aspect ratio */
 	min-width: 100%;
 	min-height: 100%;
-}
+  }
 
 /* --------------------------------------- */
 #out{
@@ -136,13 +135,13 @@
 ._1{
 	width: 172px;
 	height: 167px;
-	background: url('s1.jpg')no-repeat center top/cover;
+	background: url('_1.png')no-repeat center top/cover;
 
 }
 ._2{
 	width: 172px;
 	height: 167px;
-	background: url('s2.jpg')no-repeat center top/cover;
+	background: url('_2.png')no-repeat center top/cover;
 }
 
 .howToGetLink{
