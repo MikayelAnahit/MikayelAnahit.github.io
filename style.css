@@ -8,10 +8,13 @@
 	color: #36322D;
 }
 
+<<<<<<< HEAD
 @font-face {
 	font-family: "Arm";
 	src: url("./ArmAllegroU.ttf");
 }
+=======
+>>>>>>> ae1f7c76f7a86f56cfda34482b0d8a947f044b6e
 #bg {
 	position: fixed; 
 	top: 0; 
@@ -21,7 +24,12 @@
 	min-width: 100%;
 	min-height: 100%;
   }
+<<<<<<< HEAD
 /* body{
+=======
+/*
+body{
+>>>>>>> ae1f7c76f7a86f56cfda34482b0d8a947f044b6e
 	margin: 0;
 	padding: 0;
 	background: url('bg.png');
@@ -31,7 +39,11 @@
 	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
+<<<<<<< HEAD
 } */
+=======
+}*/
+>>>>>>> ae1f7c76f7a86f56cfda34482b0d8a947f044b6e
 /* --------------------------------------- */
 #out{
 	top: 100vh;
