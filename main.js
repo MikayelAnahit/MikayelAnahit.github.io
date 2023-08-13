@@ -1,6 +1,6 @@
 const out = document.getElementById('out');
 
-const am = ['Սիրելի', 'Հյուրեր', 'Սիրով հրավիրում ենք Ձեզ մեր հարսանյաց արարողությանը, որը տեղի կունենա', '16:00-<span>Պսակադրություն</span>', '17:30-<span>Հարսանեկան խնջույք</span>', 'Պսակադրություն', 'Սաղմոսավանք', 'How to get link', 'Հարսանեկան խնջույք', 'Վիլլա Հիլս', 'Մենք գնահատում ենք ձեր ներկայությունը. Սիրով', 'Միքայել', 'Անահիտ'];
+const am = ['Սիրելի', 'Հյուրեր', 'Սիրով հրավիրում ենք Ձեզ մեր հարսանյաց արարողությանը, որը տեղի կունենա', '16:00-<span>Պսակադրություն</span>', '17:30-<span style="font-size: 25px">Հարսանեկան խնջույք</span>', 'Պսակադրություն', 'Սաղմոսավանք', 'How to get link', 'Հարսանեկան խնջույք', 'Վիլլա Հիլս', 'Մենք գնահատում ենք ձեր ներկայությունը.<br>Սիրով', 'Միքայել', 'Անահիտ'];
 const en = ['Dear', 'Guest', 'We invite you to our wedding<br>which will take place', '16:00-<span>Church ceremony</span>', '17:30-<span>Celebration party</span>', 'Church ceremony', 'Saghmosavank', 'How to get link', 'Celebration Party', 'Villa Hills', 'We appreciate your presence With Love', 'Mikayel', 'Anahit'];
 
 
@@ -11,11 +11,11 @@ if(window.location.href.split('?').length > 1){
 function content(leng){
     var __out = ``;
     __out += `
-<div class="dear">
-    <p ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[0] : am[0]}</p>
-    <p id="name" ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[1] : am[1]}</p>
+<div class="dear" ${leng == 'en' ? '' : 'style="margin-bottom: 20px; margin-top: 25px"'}>
+    <p >${leng == 'en' ? en[0] : am[0]}</p>
+    <p id="name" >${leng == 'en' ? en[1] : am[1]}</p>
 </div>
-<p class="text" ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>
+<p class="text" >
     ${leng == 'en' ? en[2] : am[2]}
 </p>
 <div class="times">
@@ -30,13 +30,13 @@ function content(leng){
         <div class="boll"></div>
     </div>
     <div class="time">
-        <p class="f" ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[3] : am[3]}</p>
-        <p class="s" ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[4] : am[4]}</p>
+        <p class="f" >${leng == 'en' ? en[3] : am[3]}</p>
+        <p class="s">${leng == 'en' ? en[4] : am[4]}</p>
     </div>
 </div>
 <div class="title">
-    <p ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[5] : am[5]}</p>
-    <p ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[6] : am[6]}</p>
+    <p >${leng == 'en' ? en[5] : am[5]}</p>
+    <p >${leng == 'en' ? en[6] : am[6]}</p>
 </div>
 <div class="images">
     <div class="_1"></div>
@@ -53,8 +53,8 @@ function content(leng){
 </div>
 
 <div class="title">
-    <p ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[8] : am[8]}</p>
-    <p ${leng == 'en' ? style="" :'style="font-family: Arm"'}}>${leng == 'en' ? en[9] : am[9]}</p>
+    <p >${leng == 'en' ? en[8] : am[8]}</p>
+    <p >${leng == 'en' ? en[9] : am[9]}</p>
 </div>
 <div class="images">
     <div class="_1_"></div>
@@ -64,15 +64,15 @@ function content(leng){
     <a href="https://maps.app.goo.gl/vbPo8DuDUzG3JTJK7"><div></div> ${leng == 'en' ? en[7] : am[7]}</a>
 </div>
 
-<div class="t1" ${leng == 'en' ? style="" : 'style="font-size: 40px;"'}}>
+<div class="t1" ${leng == 'en' ? "" : 'style="font-size: 40px;"'}>
     ${leng == 'en' ? en[10] : am[10]}
 </div>
 
-<div class="m_a">
-    <p class="m" ${leng == 'en' ? style="" : 'style="font-family: Arm; left: -20%"'}}>${leng == 'en' ? en[11] : am[11]}</p>
+<div class="m_a" ${leng == 'en' ? "" : 'style="margin-bottom: 25px"'}>
+    <p class="m" ${leng == 'en' ? "" : 'style="left: -20%"'}>${leng == 'en' ? en[11] : am[11]}</p>
     
-    <p class="a" ${leng == 'en' ? style="" : 'style="font-family: Arm; left: 20%"'}}>${leng == 'en' ? en[12] : am[12]}</p>
-    <p class="and" ${leng == 'en' ? style="" : 'style="left: 50px; top: 20px;"'}>&</p>
+    <p class="a" ${leng == 'en' ? "" : 'style="top: 10px; left: 20%"'}>${leng == 'en' ? en[12] : am[12]}</p>
+    <p class="and" ${leng == 'en' ? "" : 'style="left: 20px; top: 0;"'}>&</p>
 </div>
 </div>`;
     out.innerHTML = __out;
