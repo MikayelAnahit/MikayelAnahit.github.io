@@ -71,8 +71,8 @@ function content(leng){
 <div class="m_a" ${leng == 'en' ? "" : 'style="margin-bottom: 25px"'}>
     <p class="m" ${leng == 'en' ? "" : 'style="left: -20%"'}>${leng == 'en' ? en[11] : am[11]}</p>
     
-    <p class="a" ${leng == 'en' ? "" : 'style="top: 10px; left: 20%"'}>${leng == 'en' ? en[12] : am[12]}</p>
-    <p class="and" ${leng == 'en' ? "" : 'style="left: 20px; top: 0;"'}>&</p>
+    <p class="a" ${leng == 'en' ? "" : 'style="top: -50px; left: 20%"'}>${leng == 'en' ? en[12] : am[12]}</p>
+    <p class="and" ${leng == 'en' ? "" : 'style="left: 20px; top: 20px;"'}>&</p>
 </div>
 </div>`;
     out.innerHTML = __out;
