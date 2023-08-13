@@ -1,6 +1,6 @@
 const out = document.getElementById('out');
 
-const am = ['Սիրելի', 'Հյուրեր', 'Սիրով հրավիրում ենք Ձեզ մեր հարսանյաց արարողությանը, որը տեղի կունենա', '16:00-<span>Պսակադրություն</span>', '17:30-<span style="font-size: 25px">Հարսանեկան խնջույք</span>', 'Պսակադրություն', 'Սաղմոսավանք', 'How to get link', 'Հարսանեկան խնջույք', 'Վիլլա Հիլս', 'Մենք գնահատում ենք ձեր ներկայությունը.<br>Սիրով', 'Միքայել', 'Անահիտ'];
+const am = ['Սիրելի', 'Հյուրեր', 'Սիրով հրավիրում ենք Ձեզ մեր հարսանյաց արարողությանը, որը տեղի կունենա', '16:00-<span>Պսակադրություն</span>', '17:30-<span style="font-size: 25px">Հարսանեկան խնջույք</span>', 'Պսակադրություն', 'Սաղմոսավանք', 'How to get link', 'Հարսանեկան խնջույք', 'Վիլլա Հիլլս', 'Մենք գնահատում ենք ձեր ներկայությունը.<br>Սիրով', 'Միքայել', 'Անահիտ'];
 const en = ['Dear', 'Guest', 'We invite you to our wedding<br>which will take place', '16:00-<span>Church ceremony</span>', '17:30-<span>Celebration party</span>', 'Church ceremony', 'Saghmosavank', 'How to get link', 'Celebration Party', 'Villa Hills', 'We appreciate your presence<br>With Love', 'Mikayel', 'Anahit'];
 
 
