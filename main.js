@@ -64,7 +64,7 @@ function content(leng){
     <a href="https://maps.app.goo.gl/vbPo8DuDUzG3JTJK7"><div></div> ${leng == 'en' ? en[7] : am[7]}</a>
 </div>
 
-<div class="t1" ${leng == 'en' ? style="" : 'stile="font-family: Arm; font-size: 40px;"'}}>
+<div class="t1" ${leng == 'en' ? style="" : 'style="font-size: 40px;"'}}>
     ${leng == 'en' ? en[10] : am[10]}
 </div>
 
